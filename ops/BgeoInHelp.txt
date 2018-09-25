@@ -1,0 +1,234 @@
+<!--
+  Copyright 2018 Laika, LLC. Authored by Peter Stuart
+
+  Licensed under the Apache License, Version 2.0, <LICENSE-APACHE or
+  http://apache.org/licenses/LICENSE-2.0> or the MIT license <LICENSE-MIT or
+  http://opensource.org/licenses/MIT>, at your option. This file may not be
+  copied, modified, or distributed except according to those terms.
+ -->
+
+<h1>BgeoIn Help</h1>
+
+<h2>Supported Primitives</h2>
+
+<ul>
+    <li>Packed Fragment</li>
+    <li>Packed Disk</li>
+    <li>Packed Geometry</li>
+    <li>Packed Points</li>
+    <li>Particle System</li>
+    <li>Poly</li>
+    <li>PolySoup</li>
+    <li>Sphere</li>
+    <li>Volume</li>
+</ul>
+
+<h3>Packed Disk</h3>
+
+Only bgeo files currently supported.
+
+<h3>Packed Geometry</h3>
+
+<h3>Packed Points</h3>
+
+Packed points can take advantage of prman's multi-threaded geometry processing.
+
+<h3>Particle System</h3>
+
+Points without primitives will render in the same fashion as Particle System
+primitives.
+
+<h3>Poly</h3>
+
+<h3>PolySoup</h3>
+
+PolySoup primitives show up in Katana as Polymesh objects. They are identical
+to Poly primitives, except that there is one scenegraph location per PolySoup
+primitive, instead of everything all in one.
+
+<h3>Sphere</h3>
+
+Only a single sphere primitive is supported at this time.
+
+<h3>Volume</h3>
+
+Multiple density volumes are supported. However, multiple fields are not
+supported.
+
+<h2>Version History</h2>
+<table border=1>
+    <tr>
+        <th>Version</th>
+        <th>Date</th>
+        <th>Notes</th>
+    </tr>
+    <tr>
+        <td>0.2.20</td>
+        <td></td>
+        <td><ul>
+            <li>dev</li>
+        </ul></td>
+    </tr>
+    <tr>
+        <td>0.2.19</td>
+        <td>Fri Dec 8 12:06:50 2017</td>
+        <td><ul>
+            <li>Make empty geometry error non-fatal.</li>
+        </ul></td>
+    </tr>
+    <tr>
+        <td>0.2.18</td>
+        <td>Mon Sep 25 11:49:24 2017</td>
+        <td><ul>
+            <li>Add support for detail edge groups.</li>
+            <li>
+            Add support for "stringarray" attribute type such as used by
+            visualizer detail attributes.
+            </li>
+            <li>Enable linking against Houdini 16.0.</li>
+        </ul></td>
+    </tr>
+    <tr>
+        <td>0.2.17</td>
+        <td>Tue Sep 12 08:43:10 2017</td>
+        <td><ul>
+            <li>
+            Bug fixes for packed points and some underlying changes to
+            enable multi-threading of the packed points
+            </li>
+        </ul></td>
+    </tr>
+    <tr>
+        <td>0.2.16</td>
+        <td>Tue May 9 16:46:55 2017</td>
+        <td><ul>
+            <li>Fix Houdini 16 bgeo polygon run vertex loading bug.</li>
+        </ul></td>
+    </tr>
+    <tr>
+        <td>0.2.15</td>
+        <td>Wed Apr 5 12:58:35 2017</td>
+        <td><ul>
+            <li>Add support for Houdini 16.</li>
+        </ul></td>
+    </tr>
+    <tr>
+        <td>0.2.14</td>
+        <td>Thu Mar 30 16:31:56 2017</td>
+        <td><ul>
+            <li>Add "Check Version" control.</li>
+        </ul></td>
+    </tr>
+    <tr>
+        <td>0.2.13</td>
+        <td>Mon Jan 23 09:59:36 2017</td>
+        <td><ul>
+            <li>
+            Remove patch number from Houdini build version.
+            </li>
+        </ul></td>
+    </tr>
+    <tr>
+        <td>0.2.12</td>
+        <td>Thu Nov 3 16:24:20 2016</td>
+        <td><ul>
+            <li>
+            Optimize PolySoup primitives by splitting geometry attributes at
+            each PolySoup primitive.
+            </li>
+        </ul></td>
+    </tr>
+    <tr>
+        <td>0.2.11</td>
+        <td>Wed Nov 2 15:52:48 2016</td>
+        <td><ul>
+            <li>Add support for PolySoup primitives.</li>
+        </ul></td>
+    </tr>
+    <tr>
+        <td>0.2.10</td>
+        <td>Wed Nov 2 09:29:20 2016</td>
+        <td><ul>
+            <li>
+            Fix primitive caching mechanism. Aside from being inefficient
+            it was causing occasional memory issues.
+            </li>
+        </ul></td>
+    </tr>
+    <tr>
+        <td>0.2.9</td>
+        <td>Thu Oct 6 09:33:12 2016</td>
+        <td><ul>
+            <li>Add support for Packed Fragment primitives.</li>
+            <li>Fix the Packed Geometry transforms.</li>
+            <li>Add this help text.</li>
+        </ul></td>
+    </tr>
+    <tr>
+        <td>0.2.8</td>
+        <td>Thu Sep 15 16:20:39 2016</td>
+        <td><ul>
+            <li>Add support for Packed Disk primitives.</li>
+            <li>Add support for Packed Geometry primitives.</li>
+            <li>Build plugin against Houdini 15.5.</li>
+        </ul></td>
+    </tr>
+    <tr>
+        <td>0.2.7</td>
+        <td>Wed Sep 14 12:50:56 2016</td>
+        <td><ul>
+        </ul></td>
+    </tr>
+    <tr>
+        <td>0.2.6</td>
+        <td>Mon Sep 12 14:49:58 2016</td>
+        <td><ul>
+        </ul></td>
+    </tr>
+    <tr>
+        <td>0.2.5</td>
+        <td>Thu Aug 18 09:37:16 2016</td>
+        <td><ul>
+            <li>Add support for multiple density Volume primitives.</li>
+        </ul></td>
+    </tr>
+    <tr>
+        <td>0.2.4</td>
+        <td>Wed Aug 17 15:57:50 2016</td>
+        <td><ul>
+        </ul></td>
+    </tr>
+    <tr>
+        <td>0.2.3</td>
+        <td>Wed Aug 17 13:26:12 2016</td>
+        <td><ul>
+            <li>Add support for Particle System primitives.</li>
+        </ul></td>
+    </tr>
+    <tr>
+        <td>0.2.2</td>
+        <td>Wed Aug 17 11:28:25 2016</td>
+        <td><ul>
+            <li>Add support for compressed bgeo files.</li>
+        </ul></td>
+    </tr>
+    <tr>
+        <td>0.2.1</td>
+        <td>Wed Aug 10 09:37:55 2016</td>
+        <td><ul>
+            <li>Add support for attribute arrays.</li>
+            <li>Fix string attributes.</li>
+        </ul></td>
+    </tr>
+    <tr>
+        <td>0.2.0</td>
+        <td>Fri Jun 3 09:08:48 2016</td>
+        <td><ul>
+            <li>Add option to bgeo loader to create subdmesh geometry for polymeshes.</li>
+            <li>Add feature to re-compute bounds of point clouds taking width attribute
+                into account.</li>
+            <li>Add option to bgeo loader to create subdmesh geometry for polymeshes.</li>
+            <li>Fix volume bound bug.</li>
+        </ul></td>
+    </tr>
+</table>
