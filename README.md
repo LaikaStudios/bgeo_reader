@@ -1,6 +1,6 @@
 # BGEO reader library and Katana Op
 
-This repository contains code for parsing Sidefx Houdini BGEO formatted files and a Katana Op for generating an appropriate scengraph hierarchy from the BGEO file in Katana. Documentation for the schema used in the BGEO format can be found here: http://www.sidefx.com/docs/hdk/\_h\_d\_k\_\_g\_a\_\_using.html#HDK\_GA\_FileFormat.
+This repository contains code for parsing Sidefx Houdini BGEO formatted files and a Katana Op for generating an appropriate scengraph hierarchy from the BGEO file in Katana. Documentation for the schema used in the BGEO format can be found here: [HDK GA FileFormat](http://www.sidefx.com/docs/hdk/_h_d_k__g_a__using.html#HDK\_GA\_FileFormat).
 
 ## Brief History
 
