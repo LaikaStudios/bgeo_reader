@@ -1,0 +1,83 @@
+["fileversion","13.0.343","pointcount",1,"vertexcount",1,"primitivecount",1,"info",
+    {
+	"volume_summary":"Volume Resolutions:\n  0 : [4, 3, 3] Voxel Count: 36\n",
+	"artist":"vangogh",
+	"primcount_summary":"          1 Volume\n",
+	"hostname":"zundert",
+	"bounds":[-1.99180066586000004,1.99180066586000004,-1.4938504695899999,1.4938504695899999,-1.4938504695899999,1.4938504695899999
+	],
+	"attribute_summary":"     1 point attributes:\tP\n",
+	"date":"2014-08-29 15:16:58",
+	"software":"Houdini 13.0.343"
+    },"topology",
+    ["pointref",
+	["indices",
+	    [0
+	    ]
+	]
+    ],"attributes",
+    ["vertexattributes",
+	[
+	],"pointattributes",
+	[
+	    [
+		["scope","public","type","numeric","name","P","options",
+		    {
+			"type":{
+			    "type":"string",
+			    "value":"hpoint"
+			}
+		    }
+		],
+		["size",4,"storage","fpreal32","defaults",
+		    ["size",4,"storage","fpreal64","values",
+			[0,0,0,1
+			]
+		    ],"values",
+		    ["size",4,"storage","fpreal32","tuples",
+			[
+			    [0,0,0,1
+			    ]
+			]
+		    ]
+		]
+	    ]
+	]
+    ],"primitives",
+    [
+	[
+	    ["type","Volume"
+	    ],
+	    ["vertex",0,"transform",
+		[1.99180066586000004,0,0,0,1.4938504695899999,0,0,0,1.4938504695899999
+		],"res",
+		[4,3,3
+		],"border",
+		{
+		    "type":"constant",
+		    "value":0
+		},"compression",
+		{
+		    "tolerance":0
+		},"voxels",
+		["tiledarray",
+		    ["version",1,"compressiontypes",
+			["raw","rawfull","constant","fpreal16","FP32Range"
+			],"tiles",
+			[
+			    ["compression",0,"data",
+				[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.729885101317999996,0.44692075252500002,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+				]
+			    ]
+			]
+		    ]
+		],"visualization",
+		{
+		    "iso":0,
+		    "mode":"smoke",
+		    "density":1
+		},"taperx",1,"tapery",1
+	    ]
+	]
+    ]
+]

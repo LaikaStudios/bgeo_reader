@@ -1,0 +1,83 @@
+["fileversion","16.0.450","hasindex",false,"pointcount",8,"vertexcount",24,"primitivecount",6,"info",
+    {
+	"artist":"vangogh",
+	"primcount_summary":"          6 Polygons\n",
+	"hostname":"zundert",
+	"bounds":[-0.5,0.5,-0.5,0.5,-0.5,0.5
+	],
+	"attribute_summary":"     1 point attributes:\tP\n",
+	"date":"2017-02-01 10:12:34",
+	"group_summary":"     1 primitive groups:\tfaces\n",
+	"software":"Houdini 16.0.450"
+    },"topology",
+    ["pointref",
+	["indices",
+	    [1,5,4,0,2,6,5,1,3,7,6,2,0,4,7,3,2,1,0,3,5,6,7,4
+	    ]
+	]
+    ],"attributes",
+    ["pointattributes",
+	[
+	    [
+		["scope","public","type","numeric","name","P","options",
+		    {
+			"type":{
+			    "type":"string",
+			    "value":"point"
+			}
+		    }
+		],
+		["size",3,"storage","fpreal32","defaults",
+		    ["size",1,"storage","fpreal64","values",
+			[0
+			]
+		    ],"values",
+		    ["size",3,"storage","fpreal32","tuples",
+			[
+			    [-0.5,-0.5,-0.5
+			    ],
+			    [0.5,-0.5,-0.5
+			    ],
+			    [0.5,-0.5,0.5
+			    ],
+			    [-0.5,-0.5,0.5
+			    ],
+			    [-0.5,0.5,-0.5
+			    ],
+			    [0.5,0.5,-0.5
+			    ],
+			    [0.5,0.5,0.5
+			    ],
+			    [-0.5,0.5,0.5
+			    ]
+			]
+		    ]
+		]
+	    ]
+	]
+    ],"primitives",
+    [
+	[
+	    ["type","Polygon_run"
+	    ],
+	    ["startvertex",0,"nprimitives",6,"nvertices_rle",
+		[4,6
+		]
+	    ]
+	]
+    ],"primitivegroups",
+    [
+	[
+	    ["name","faces"
+	    ],
+	    ["selection",
+		["unordered",
+		    ["i8",
+			[0,0,1,1,1,0
+			]
+		    ]
+		]
+	    ]
+	]
+    ]
+]

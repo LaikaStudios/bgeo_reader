@@ -32,5 +32,5 @@ clean:
 	$(MAKE) --directory=check_bgeo $@
 	$(MAKE) --directory=ginfo $@
 
-#test: all
-#	$(MAKE) --directory=test $@
+test: all
+	$(MAKE) --directory=test $@

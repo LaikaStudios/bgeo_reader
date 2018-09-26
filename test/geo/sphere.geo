@@ -1,0 +1,56 @@
+["fileversion","13.0.343","pointcount",1,"vertexcount",1,"primitivecount",1,"info",
+    {
+	"artist":"vangogh",
+	"primcount_summary":"          1 Sphere\n",
+	"hostname":"zundert",
+	"bounds":[1.10000002384000006,2.90000009536999981,-0.359999954700000013,1.96000003815000001,-0.899999976157999981,0.899999976157999981
+	],
+	"attribute_summary":"     1 point attributes:\tP\n",
+	"date":"2014-08-29 12:03:02",
+	"software":"Houdini 13.0.343"
+    },"topology",
+    ["pointref",
+	["indices",
+	    [0
+	    ]
+	]
+    ],"attributes",
+    ["vertexattributes",
+	[
+	],"pointattributes",
+	[
+	    [
+		["scope","public","type","numeric","name","P","options",
+		    {
+			"type":{
+			    "type":"string",
+			    "value":"hpoint"
+			}
+		    }
+		],
+		["size",4,"storage","fpreal32","defaults",
+		    ["size",4,"storage","fpreal64","values",
+			[0,0,0,1
+			]
+		    ],"values",
+		    ["size",4,"storage","fpreal32","tuples",
+			[
+			    [2,0.800000011921000009,0,1
+			    ]
+			]
+		    ]
+		]
+	    ]
+	]
+    ],"primitives",
+    [
+	[
+	    ["type","Sphere"
+	    ],
+	    ["vertex",0,"transform",
+		[0,0,-0.899999976157999981,0,1.15999996662000004,0,0.899999976157999981,0,0
+		]
+	    ]
+	]
+    ]
+]
