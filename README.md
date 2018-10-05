@@ -24,7 +24,7 @@ The provided make files utilize Houdini's toolkit makefiles so if you can build 
 
 ## Documentation
 
-TBD
+https://github.com/LaikaStudios/bgeo_reader/wiki
 
 ## License
 Licensed under either of
